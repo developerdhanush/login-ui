@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    
+</head>
+<body>
+    <nav class ="flex"><div class ="main logo"><i class="fa-sharp fa-regular fa-sparkles"></i></div>
+    <div></div></nav>
+    <div class="background-image">
+		<h1>Welcome to my website!</h1>
+	</div>
+	<div class="login-box">
+		<h1>Login</h1>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username">
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password">
+
+			<input type="submit" value="Login">
+           
+            <br>
+  <a href="#">Forgot Password?</a>
+  <br>
+
+		</form>
+       <div style="cursor: pointer;"><i</div>
+        <div style="cursor: pointer;"><i class="fab fa-google" style="font-size: 30px;"></i><span style="font-size: 20px; margin-left: 10px; margin-bottom: 10px;">Signin with google</span></div>
+	</div>
+    <script>
+        function forgotPassword() {
+          window.open("resetpassword.html", "_blank");
+        }
+        document.querySelector("a").addEventListener("click", forgotPassword);
+      </script>
+    
+</body>
+</html>
